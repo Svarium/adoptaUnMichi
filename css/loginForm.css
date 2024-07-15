@@ -1,0 +1,10 @@
+.form-buttons{
+    a{
+        color: var(--colorFormBody);
+        align-self: center;
+        order: 1;
+    }
+    a:hover{
+        color: var(--colorBtnRegistro);
+    }
+}

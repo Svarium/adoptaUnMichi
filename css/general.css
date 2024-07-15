@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    flex-direction: column;  
+    font-family: var(--tipografiaGeneral);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 2em;
+    margin-bottom: 30px;
+    text-align: left;
+    color: #194e86;
+}
+
+h2{
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    text-align: left;
+    color: #194e86;
+}

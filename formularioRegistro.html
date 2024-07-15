@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">    
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://kit.fontawesome.com/ce970c0111.js" crossorigin="anonymous"></script>   
+</head>
+<body class="form-body">
+    <div class="form-container">
+        <form class="adoption-form">
+            <h1 class="adoption-form__title">Formulario de Registro <i class="fa-solid fa-user-plus"></i></h1>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" id="apellido" name="apellido" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="usuario">Nombre de usuario</label>
+                    <input type="text" id="usuario" name="usuario" required>
+                </div>
+                <div class="form-group">
+                    <label for="edad">Edad</label>
+                    <input type="date" id="edad" name="edad" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="contraseña">Contraseña</label>
+                    <input type="password" id="contraseña" name="contraseña" required>
+                </div>
+                <div class="form-group">
+                    <label for="contraseña2">Repetir Contraseña</label>
+                    <input type="password" id="contraseña2" name="contraseña2" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group ">
+                    <label for="icon">Foto de perfil <i class="fa-solid fa-camera-retro"></i></label>
+                    <input type="file" id="icon" name="icon" accept="image/*" class="custom-file-input">              
+                </div>             
+            </div>
+            <div class="form-buttons">
+                <a href="/index.html" class="cancel-button">Cancelar</a>                
+                <button type="submit" class="submit-button">Enviar</button>
+            </div>
+        </form>
+      
+    </div>
+</body>
+</html>

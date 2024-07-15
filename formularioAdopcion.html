@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Adopción</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">    
+    <link rel="stylesheet" href="/css/styles.css">   
+</head>
+<body class="form-body">
+    <div class="form-container">
+        <form class="adoption-form">
+            <h1 class="adoption-form__title">Formulario de adopción</h1>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="nombre-michi">Nombre del Michi</label>
+                    <input type="text" id="nombre-michi" name="nombre-michi" required>
+                </div>
+                <div class="form-group">
+                    <label for="nombre-adoptante">Nombre del adoptante</label>
+                    <input type="text" id="nombre-adoptante" name="nombre-adoptante" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="apellido-adoptante">Apellido del adoptante</label>
+                    <input type="text" id="apellido-adoptante" name="apellido-adoptante" required>
+                </div>
+                <div class="form-group">
+                    <label for="dni-adoptante">DNI del adoptante</label>
+                    <input type="text" id="dni-adoptante" name="dni-adoptante" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" name="telefono" required>
+                </div>
+                <div class="form-group">
+                    <label for="domicilio">Domicilio</label>
+                    <input type="text" id="domicilio" name="domicilio" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group full-width">
+                    <label for="razon">¿Por qué quieres adoptar a este michi?</label>
+                    <textarea id="razon" name="razon" required></textarea>
+                </div>
+            </div>
+            <div class="form-buttons">
+                <a href="/index.html" class="cancel-button">Cancelar</a>                
+                <button type="submit" class="submit-button">Enviar</button>
+            </div>
+        </form>
+      
+    </div>
+</body>
+</html>
