@@ -7,6 +7,7 @@ header {
     width: 100%;  
     position: sticky;
     top: 0; 
+    z-index: 99;
 }
 
 nav{
@@ -26,11 +27,6 @@ nav ul li:last-child{
     }
 }
 
-.logo {
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
 .logo img{
     width: 80px;
 }
@@ -44,9 +40,8 @@ nav ul li {
     margin-left: 20px;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: #faf6f6;
+nav ul li a {    
+    color: white;
     font-weight: bolder;
     &&:hover{
         color: #526581;

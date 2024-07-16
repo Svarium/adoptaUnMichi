@@ -4,8 +4,7 @@
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-    font-family: var(--tipografiaGeneral);
+    align-items: center;    
     background: url('/img/gatitos/backgroundForm.jpg') repeat ;
     background-size: cover;
     font-weight: bolder;
@@ -17,9 +16,8 @@
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    max-width: 600px;
-    width: 100%;
-    
+    max-width: 600px; /* no se ampliará más allá de este valor, incluso si el espacio disponible es mayor. */
+    width: 100%;    
 }
 
 .adoption-form {
@@ -40,14 +38,14 @@
 }
 
 .form-group {
-    flex: 1;
+    flex: 1; /* se expandirá para llenar el espacio restante en el contenedor flex. Si hay múltiples elementos con flex: 1, dividirán equitativamente el espacio disponible entre ellos.*/
     display: flex;
     flex-direction: column;
 }
 
-.full-width {
+/* .full-width {
     flex: 2;
-}
+} */
 
 label {
     margin-bottom: 10px;
@@ -62,7 +60,7 @@ input, textarea {
 }
 
 textarea {
-    resize: vertical;
+    resize:vertical;
     height: 80px;
 }
 
@@ -88,16 +86,17 @@ button {
     font-size: 1em;
     cursor: pointer;
     background-color: #c4b2b2;
-    &&:hover{
+    &:hover{
         background-color: #f5ac7b;
         outline: 2px solid white;
+        color: white;
     }
 }
 
 .submit-button {
     background-color: var(--colorBtnRegistro);
     font-weight: bold;
-    &&:hover{
+    &:hover{
         outline: 2px solid white;
     }
 }
