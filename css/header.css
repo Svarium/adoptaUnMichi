@@ -9,21 +9,22 @@ header {
     top: 0; 
 }
 
-nav{
+nav {
     width: 50%;    
 }
 
-figure{
+figure {
     width: 50%;
 }
 
-nav ul li:last-child{
+nav ul li:last-child {
     color: rgb(255, 255, 255);
     cursor: pointer;
     font-weight: bolder;
-    &&:hover{
-        color: red;
-    }
+}
+
+nav ul li:last-child:hover {
+    color: red;
 }
 
 .logo {
@@ -31,7 +32,7 @@ nav ul li:last-child{
     font-weight: bold;
 }
 
-.logo img{
+.logo img {
     width: 80px;
 }
 
@@ -48,7 +49,60 @@ nav ul li a {
     text-decoration: none;
     color: #faf6f6;
     font-weight: bolder;
-    &&:hover{
-        color: #526581;
+}
+
+nav ul li a:hover {
+    color: #526581;
+}
+
+/* MENU HAMBURGUESA */
+.menu-icon {
+    display: none;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+@media (max-width: 768px) {
+
+    header {        
+      flex-wrap: wrap;
+    }
+
+    figure{
+        width: 90%;
+    }
+
+    nav ul {
+        flex-direction: column;
+        display: none;
+        width: 100%;
+    }
+
+    nav ul li {
+        margin-left: 0;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    nav ul li a {
+        color: #194e86;
+    }
+
+    #menu-toggle:checked + .menu-icon + nav ul {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: block;
+        color: #194e86;
+        width: 10%;       
+    }    
+
+    nav {
+        width: 100%;
     }
 }

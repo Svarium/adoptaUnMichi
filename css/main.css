@@ -93,3 +93,34 @@
         opacity: 100%;
     }
 }
+
+/* MEDIAQUERYS */
+
+
+/* TABLETS */
+@media (max-width: 768px) {
+    .banner_img {
+        height: 400px;  
+        background-position: center top;  
+    }
+
+    .card {
+        width: 45%;
+         }
+}
+
+
+
+/* CELULARES */
+@media (max-width: 480px) {
+    .banner_img {
+        height: 500px; 
+        background-position: center top;  
+    }
+
+    
+    .card {
+   width: 100%;
+    }
+
+}

@@ -30,3 +30,17 @@ footer p {
     color: #fcfdfd;   
     font-weight: lighter;
 }
+
+
+
+
+/* CELULARES 480px */
+@media (max-width:480px){
+
+    .footer-links {
+       flex-direction: column; 
+       gap: 20px;   
+       justify-content: center;
+    }
+
+}
