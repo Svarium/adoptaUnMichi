@@ -43,9 +43,6 @@
     flex-direction: column;
 }
 
-/* .full-width {
-    flex: 2;
-} */
 
 label {
     margin-bottom: 10px;
@@ -98,5 +95,34 @@ button {
     font-weight: bold;
     &:hover{
         outline: 2px solid white;
+    }
+}
+
+
+/* CELULARES */
+@media (max-width: 480px) {
+
+    .form-body {
+        margin: 50px auto;
+        background: url('/img/gatitos/backgroundForm.jpg') no-repeat center center / cover fixed  ;
+        
+    }
+
+    .form-row {
+        flex-direction: column;
+    }
+
+    .form-group {
+        width: 100%;
+    }
+
+    .form-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .form-buttons a, .form-buttons button {
+        width: 100%;
+        text-align: center;
     }
 }

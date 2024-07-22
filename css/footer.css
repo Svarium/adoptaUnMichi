@@ -40,6 +40,15 @@ footer p {
 }
 
 
+/* TABLETS */
+
+@media (max-width:768px){
+
+  .footer-links{
+    gap: 100px;
+  }
+
+}
 
 
 /* CELULARES 480px */
@@ -52,3 +61,5 @@ footer p {
     }
 
 }
+
+
