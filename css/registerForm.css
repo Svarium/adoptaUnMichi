@@ -1,12 +1,8 @@
-.custom-file-input {
-    opacity: 0;  
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
+.custom-file-input { 
     display: none;
   }  
 
-  label[for="icon"] {
+  label[for="icon"] { /* selecciona todos los elementos <label> que tienen un atributo for con el valor exacto "icon". */
     margin-top: 10px;
     display: block;
     background-color: var(--colorBtnRegistro); 
@@ -15,11 +11,12 @@
     border-radius: 5px; 
     cursor: pointer;
     transition: background-color 0.3s ease;
+    &:hover{
+      background-color: #276cb6; 
+    }
   }  
 
-  label[for="icon"]:hover {
-    background-color: #276cb6; 
-  }
+
 
 
 

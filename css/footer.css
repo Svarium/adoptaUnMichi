@@ -22,6 +22,14 @@ footer {
     }
 }
 
+.redes-sociales {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    font-size: 22px;
+    align-items: center;
+}
+
 footer p {
     width: 100%;
     text-align: center;

@@ -8,13 +8,9 @@ a{
     text-decoration: none;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    flex-direction: column;  
+body {   
     font-family: var(--tipografiaGeneral);
-    width: 100%;
-    margin: 0;
-    padding: 0;
+    width: 100%;    
 }
 
 h1{
