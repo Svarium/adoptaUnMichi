@@ -56,6 +56,7 @@ nav ul li a:hover {
 }
 
 /* MENU HAMBURGUESA */
+
 .menu-icon {
     display: none;
     font-size: 2em;
@@ -88,10 +89,7 @@ nav ul li a:hover {
         padding: 10px 0;
     }
 
-    nav ul li a {
-        color: #194e86;
-    }
-
+  
     #menu-toggle:checked + .menu-icon + nav ul {
         display: flex;
     }

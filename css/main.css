@@ -27,11 +27,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: calc(25% - 20px);   /* se usa para calcular el ancho de un elemento combinando tanto una medida relativa (porcentaje) como una absoluta (píxeles). 
-    
-    25%: Esto significa que el ancho del elemento será el 25% del ancho de su elemento contenedor.
-    - 20px: A este valor calculado se le restan 20 píxeles.
-    */
+    width: calc(25% - 20px);  
 }
 
 .card__image {
@@ -97,6 +93,7 @@
 
 /* TABLETS */
 @media (max-width: 768px) {
+    
     .banner_img {
         height: 400px;  
         background-position: center top;  
@@ -110,15 +107,8 @@
 
 
 /* CELULARES */
-@media (max-width: 480px) {
-    .banner_img {
-        height: 500px; 
-        background-position: center top;  
-    }
-
-    
+@media (max-width: 480px) {      
     .card {
-   width: 100%;
+        width: 100%;
     }
-
 }
